@@ -154,8 +154,9 @@ const Home = () => (
           <ListItem>
             <Link href="www.linkedin.com/in/ioritzeguileor" target="_blank">
               <Button
+                color={useColorModeValue('#0d0d0d', undefined)}
                 variant="ghost"
-                colorScheme="gray"
+                colorScheme={useColorModeValue('blue', undefined)}
                 leftIcon={<IoLogoLinkedin />}
               >
                 @ioritzeguileor
@@ -165,8 +166,9 @@ const Home = () => (
           <ListItem>
             <Link href="mailto: ioritzeguileor@gmail.com" target="_blank">
               <Button
+                color={useColorModeValue('#0d0d0d', undefined)}
                 variant="ghost"
-                colorScheme="gray"
+                colorScheme={useColorModeValue('blue', undefined)}
                 leftIcon={<IoMail/>}
               >
                 ioritzeguileor@gmail.com
@@ -176,8 +178,9 @@ const Home = () => (
           <ListItem>
             <Link href="https://github.com/ioritzeguileor" target="_blank">
               <Button
+                color={useColorModeValue('#0d0d0d', undefined)}
                 variant="ghost"
-                colorScheme="gray"
+                colorScheme={useColorModeValue('blue', undefined)}
                 leftIcon={<IoLogoGithub />}
               >
                 @ioritzeguileor

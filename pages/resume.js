@@ -1,7 +1,7 @@
 import {Heading,Container,Box} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import {Document,Page, pdfjs} from 'react-pdf'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -31,3 +31,4 @@ const Resume=()=>{
 }
 
 export default Resume
+export { getServerSideProps } from '../components/chakra'

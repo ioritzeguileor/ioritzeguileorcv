@@ -32,7 +32,7 @@ const Works = () => (
       </SimpleGrid>
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
           General Works
         </Heading>
       </Section>
