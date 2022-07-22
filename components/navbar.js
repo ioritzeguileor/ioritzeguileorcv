@@ -62,7 +62,6 @@ const Navbar = props => {
             <Logo />
           </Heading>
         </Flex>
-
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
@@ -82,7 +81,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/ioritzeguileor"
+            href="https://github.com/ioritzeguileor/ioritzeguileorcv"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -120,7 +119,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/ioritzeguileor"
+                  href="https://github.com/ioritzeguileor/ioritzeguileorcv"
                 >
                   View Source
                 </MenuItem>
