@@ -1,6 +1,7 @@
 # Ioritz Eguileor CV Website
 
 [https://ioritzeguileorcv.vercel.app/](https://ioritzeguileorcv.vercel.app/)
+![Screenshot.png](Screenshot.png)
 
 ## Stack
 
