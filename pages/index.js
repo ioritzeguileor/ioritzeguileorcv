@@ -131,7 +131,7 @@ const Home = () => (
           Hobbies and Passions
         </Heading>
         <p>
-        &emsp;Software-Development, Drawing, Powerlifting, Olympic Weightlifting, {''}<Link href="https://twitch.tv/crazybuggz" target="_blank">Streaming</Link>, Graphic-Design, Stoicism, {''}<Link href="https://www.goodreads.com/user/show/90688924-ioritz-eguileor" target="_blank">Reading</Link>
+        &emsp;Software-Development,Rugby, Drawing, Powerlifting, Olympic Weightlifting, {''}<Link href="https://twitch.tv/crazybuggz" target="_blank">Streaming</Link>, Graphic-Design, Stoicism, {''}<Link href="https://www.goodreads.com/user/show/90688924-ioritz-eguileor" target="_blank">Reading</Link>
         </p>
       </Section>
 
