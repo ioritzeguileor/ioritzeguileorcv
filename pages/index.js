@@ -98,10 +98,10 @@ const Home = () => (
         <span>Python, Java, JavaScript</span>
         </Box>
         <Box>
-        <Meta color="green">Frameworks/Other</Meta>
+        <Meta color="red">Frameworks/Other</Meta>
         <span>ReactJS, Tailwind CSS, ChakraUI, NextJS, HTML, CSS</span>
         </Box>
-        <Meta color="red">Languages</Meta>
+        <Meta color="green">Languages</Meta>
         <span>English (Native), Spanish (Native), French (Fluent)</span>
       </Section>
       <Section delay={0.2}>
@@ -130,8 +130,19 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Hobbies and Passions
         </Heading>
+        <Box>
+          <Meta color="blue">Mind</Meta>
+          <span>Software-Development, {''}<Link href="https://www.goodreads.com/user/show/90688924-ioritz-eguileor" target="_blank">Reading</Link>, Stoicism</span>
+        </Box>
+        <Box>
+          <Meta color="red">Physical</Meta>
+          <span>Rugby, Powerlifting, Olympic Weightlifting</span>
+        </Box>
+        <Box>
+          <Meta color="green">Creative</Meta>
+          <span>Graphic-Design, {''}<Link href="https://twitch.tv/crazybuggz" target="_blank">Streaming</Link>, Drawing</span>
+        </Box>
         <p>
-        &emsp;Software-Development, Rugby, Drawing, Powerlifting, Olympic Weightlifting, {''}<Link href="https://twitch.tv/crazybuggz" target="_blank">Streaming</Link>, Graphic-Design, Stoicism, {''}<Link href="https://www.goodreads.com/user/show/90688924-ioritz-eguileor" target="_blank">Reading</Link>
         </p>
       </Section>
 
