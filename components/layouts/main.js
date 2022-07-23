@@ -16,11 +16,8 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Ioritz's home" />
         <meta name="author" content="Ioritz Eguileor" />
         <meta name="author" content="Ioritz Eguileor" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico"/>
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="og:title" content="Ioritz Eguileor" />
-        <meta property="og:type" content="website" />
         <title>Ioritz Eguileor - Home</title>
       </Head>
 
