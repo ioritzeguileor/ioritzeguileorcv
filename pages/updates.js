@@ -14,6 +14,8 @@ const Posts = () => (
       <Entry date="July 24 2022">1/3rd of the way through <Link href="https://www.udemy.com/course/python-for-finance-and-trading-algorithms/">Udemy Python for Financial Analysis </Link>course.
       Learned how to use pynum as well as pandas and now will get into how to use matplotlib for visual analysis.
       </Entry>
+      <Entry date="July 28 2022">Finished Python Finance and Algorithms for Trading course, developed my first simple trading algorithm using ballinger bands, as well as learned how to use Quantopian, and QuantConnect for algorithm research and simulations. Course overall made me much more comfortable with using python for analysis and I feel able of representing multiple different types of datas graphically now thanks to new skills in matplotlib, pandas and etc.
+      </Entry>
     </Container>
   </Layout>
 )
