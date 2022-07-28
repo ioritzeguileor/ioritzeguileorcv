@@ -20,7 +20,7 @@ const Resume=()=>{
         <Layout title="Resume">
             <Container>
                 <Heading as="h3" variant="section-title" fontSize={20}>Resume</Heading>
-                    <Paragraph>This is a mock resume not my actual one as it is not yet completed.</Paragraph>
+                    <p>This is a mock resume not my actual one as it is not yet completed.</p>
                 <Box>
                 <Document file="/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
                     <Page height="900" pageNumber={pageNumber}/>
