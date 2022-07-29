@@ -14,9 +14,11 @@ const Posts = () => (
       <Entry date="July 24 2022">1/3rd of the way through <Link href="https://www.udemy.com/course/python-for-finance-and-trading-algorithms/">Udemy Python for Financial Analysis </Link>course.
       Learned how to use pynum as well as pandas and now will get into how to use matplotlib for visual analysis.
       </Entry>
-      <Entry date="July 28 2022">Finished Python Finance and Algorithms for Trading course, uploaded some personal practice as well as brief summary on <Link href="https://github.com/ioritzeguileor/python-finance-course" target="_blank">github.
+      <Entry date="July 27 2022">Finished Python Finance and Algorithms for Trading course, uploaded some personal practice as well as brief summary on <Link href="https://github.com/ioritzeguileor/python-finance-course" target="_blank">github.
       </Link></Entry>
-    </Container>
+      <Entry date="July 28 2022">Finished JP Morgan Chase Virtual Internship Experience on Forage after procrastinating it for a while, it was interesting to see the tools that JP Morgan Chases uses to display their data however, I feel that this Virtual Internship was at times trivial and did not give much room for individual thought and to explore, <Link href=https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_Zk2GbovwKNSjkEhQ5_1659061965352_completion_certificate.pdf" target="_blank">my certificate</Link>
+      </Entry>
+     </Container>
   </Layout>
 )
 
