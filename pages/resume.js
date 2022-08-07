@@ -22,7 +22,7 @@ const Resume=()=>{
                 <Heading as="h3" variant="section-title" fontSize={20}>Resume</Heading>
                     <p>This is a mock resume not my actual one as it is not yet completed.</p>
                 <Box>
-                <Document file="/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+                <Document file="/ioritz_resume_current.docx (3).pdf" onLoadSuccess={onDocumentLoadSuccess}>
                     <Page height="900" pageNumber={pageNumber}/>
                 </Document>
                 </Box>
