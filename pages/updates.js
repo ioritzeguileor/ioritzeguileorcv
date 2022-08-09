@@ -20,6 +20,8 @@ const Posts = () => (
       </Entry>
        <Entry date="August 1 2022">Began working on my new project. It will be my first Full-Stack website, its purpose will be to serve as a BookClub type of hub where people can add books to a database after loging in and others can review them. Have finished the backend although I need to review it to understand it better, currently working on the frontend
       </Entry>
+      <Entry date="August 8 2022">Discontinued the BookClub site for now as I have decided to spend the rest of my summer before fall getting ahead in Calculus 3 as well as begin a course on DeepLearningAI as it is something that interests me and will increase my abilities in programming and different branches of mathematics and statistics.
+      </Entry>
      </Container>
   </Layout>
 )
