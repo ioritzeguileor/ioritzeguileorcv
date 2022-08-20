@@ -79,9 +79,7 @@ const Home = () => (
           Self
         </Heading>
         <Paragraph>
-          Currently a Computer Science student at the Univeristy of Florida under the College of Engineering. I look forward to competing in Hackathons during my 4 years here as well as being a leading member in the Computer Science Clubs. At the moment I am trying to become very profficient at{''}<LinkItem href="https://nextjs.org/" target="_blank">
-          <Link>Next/React</Link></LinkItem>
-               as well as trying to work towards a full-stack application during the rest of summer break before my computer science classes start.{' '}
+          Currently a Computer Science student at the Univeristy of Florida under the College of Engineering. I look forward to competing in Hackathons during my 4 years here as well as being a leading member in the Computer Science Clubs.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
