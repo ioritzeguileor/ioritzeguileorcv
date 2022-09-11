@@ -6,6 +6,8 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbDashboard from '../public/images/works/dashboard.png'
 import thumbPortfolio from '../public/images/works/portfolio.png'
 import thumbCrazy from '../public/images/works/crazybuggz.png'
+import thumbHome from '../public/images/works/home.png'
+
 
 const Works = () => (
   <Layout title="Projects">
@@ -15,6 +17,11 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+         <Section>
+          <WorkGridItem id="home" title="Ioritz Dashboard" thumbnail={thumbHome}>
+            Official Portfolio at the moment created with NextJS ChakraUI and Framer
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="dashboard" title="Mock-Dashboard" thumbnail={thumbDashboard}>
             A mock proffesional dashboard with various graphical features as well as CRUD functionality.
