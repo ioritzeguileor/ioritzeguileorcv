@@ -36,7 +36,7 @@ const Home = () => (
         borderColor={useColorModeValue('black',undefined)}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Basque computer science student at UF! 
+        Hello, I&apos;m a Basque Data Science student and aspring SOC Analyst at UF! 
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -44,7 +44,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
              Ioritz Eguileor-
           </Heading>
-          <p>Aspiring SWE ( Developer / Graphic Designer / Gym Trainer )</p>
+          <p>Aspiring SOC Analyst ( Developer / Graphic Designer)</p>
           <p>七転び八起き - &quot;Fall Seven Times and Stand Up Eight&quot;</p>
         </Box>
         <Box
@@ -79,7 +79,7 @@ const Home = () => (
           Self
         </Heading>
         <Paragraph>
-          Currently a Computer Science student at the Univeristy of Florida under the College of Engineering. I look forward to competing in Hackathons during my 4 years here as well as being a leading member in the Computer Science Clubs.
+          Currently working on my CompTIA Network+ certification as well as CDSA certification on HackTheBox. Heavily interested in the cybersecurity space with a focus on DFIR (Digital Forensics and Incident Response)
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
